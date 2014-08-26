@@ -6,9 +6,9 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 <%= render :partial => "home/nav" %>
-<div ng-view><%= yield %></div>
-<%= render :partial => "home/foot" %>
+<body>
+<%= yield %>
 </body>
+<%= render :partial => "home/foot" %>
 </html>
