@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
-  get 'home/about'
-
-  get 'home/foot'
-
-  get 'home/nav'
-
   get 'home/index'
+  get 'home/nav'
+  get 'home/wrapper'
+  get 'home/services'
+  get 'home/about'
+  get 'home/portfolio'
+  get 'home/clients'
+  get 'home/contact'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

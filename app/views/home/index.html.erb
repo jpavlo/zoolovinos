@@ -1,7 +1,20 @@
-    <div>
-      <input type="text" ng-model="yourName" placeholder="Enter a name here">
-      <h1>Hello, {{ yourName }}!</h1>
+    <%= render :partial => "home/nav" %>      
+<!-- NAVIGATION -->
+        
+	<%= render :partial => "home/wrapper" %>
+<!-- wrapper -->
+        
+     <%= render :partial => "home/services" %>		
+<!-- SERVICES -->
 
-  
-   
-    </div>
+     <%= render :partial => "home/about" %>	
+<!-- ABOUT -->
+
+     <%= render :partial => "home/portfolio" %>	
+<!-- Portfolio -->
+
+     <%= render :partial => "home/clients" %>	
+<!-- CLIENTS -->
+
+     <%= render :partial => "home/contact" %>
+<!-- CONTACT -->
